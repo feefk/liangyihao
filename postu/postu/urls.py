@@ -1,11 +1,11 @@
-from django.conf.urls import patterns, include, url
+from django.conf.urls import patterns, include
 
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-    (r'^blog/', include('blog.urls')),
+    (r'^blog/$', include('blog.urls')),
     # Examples:
     # url(r'^$', 'postu.views.home', name='home'),
     # url(r'^postu/', include('postu.foo.urls')),
