@@ -37,14 +37,6 @@ caption,th,td {
 	font-weight: normal;
 }
 
-blockquote:before,blockquote:after,q:before,q:after {
-	content: "";
-}
-
-blockquote,q {
-	quotes: "" "";
-}
-
 /* ----------------------------------------------- 
 	BASIC ELEMENTS
    ----------------------------------------------- */
@@ -186,34 +178,34 @@ td {
 }
 
 #hdr_wrp {
-	height: 407px;;
-	width: 100%;;
+	height: 407px;
+	width: 100%;
 	background: #ffffff url(../images/hdr_bg.jpg) repeat-x 0 0;
 }
 
 #img_list {
-	width: 100%;;
-	background: #242424 url(../images/bg.jpg) repeat-x left top;;
+	width: 100%;
+	background: #242424 url(../images/bg.jpg) repeat-x left top;
 	min-height: 483px;
 }
 
 #main {
-	width: 900px;;
-	overflow: hidden;;
+	width: 900px;
+	overflow: hidden;
 	margin: 0 auto;
 }
 
 #ftr_wrp {
-	height: 35px;;
-	width: 100%;;
-	background: #242424 url(../images/ftr_bg.jpg) repeat-x left top;;
+	height: 35px;
+	width: 100%;
+	background: #242424 url(../images/ftr_bg.jpg) repeat-x left top;
 	padding-top: 24px;
 }
 
 #ftr {
-	height: 35px;;
-	line-height: 35px;;
-	margin: 0 auto;;
-	width: 900px;;
+	height: 35px;
+	line-height: 35px;
+	margin: 0 auto;
+	width: 900px;
 	text-align: right;
 }

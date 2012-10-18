@@ -5,5 +5,5 @@ from postu import settings
 
 def main(request):
     
-    return render_to_response("home/main.html")
+    return render_to_response("home/home.html")
 #    return HttpResponse(settings.STATICFILES_ROOT)

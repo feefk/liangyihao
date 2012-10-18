@@ -1,0 +1,134 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+
+html,body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font: 12px/ 1.4em Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #71bd28;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#body_feature{
+	background: black;/*#0873B4*/
+	text-align: center;
+	width: 100%;
+}
+
+#header{
+	width: 800px;
+	margin: auto;
+	margin-top:20px;
+	color :white;
+}
+#header h1{
+	font: 40px/ 1.4em Helvetica, Arial, sans-serif;
+	margin-top:20px;
+}
+
+#header span{
+	margin-left:20px;
+	font: 30px/ 1.4em Helvetica, Arial, sans-serif;
+}
+
+#header h2{
+	font: 20px/ 1.4em Helvetica, Arial, sans-serif;
+	margin-top:20px;
+}
+
+#shared{
+	width: 800px;
+	margin: auto;
+	margin-top:80px;
+}
+
+#main{
+	width: 1000px;
+	margin: auto;
+	margin-top:10px;
+}
+
+#postcard{
+	background: white;
+	margin: auto;
+	width: 600px;
+	height:360px;
+}
+
+#postcard_img{
+
+}
+
+#explain{
+	color :white;
+	float: right;
+	margin-top: -360px;
+	text-align: left;
+	width: 180px;
+	padding-top:20px;
+	margin-left: 20px;
+}
+#explain h1{
+	color :white;
+	font: 20px/ 1.4em Helvetica, Arial, sans-serif;
+}
+
+#content{
+	width: 1000px;
+	margin: auto;
+	margin-top:40px;
+	color :white;
+	text-align: left;
+}
+#content h1{
+	color :white;
+	font: 20px/ 1.4em Helvetica, Arial, sans-serif;
+}
+
+#img_list{
+	width: 920px;
+	margin: auto;
+	margin-top:20px;
+}
+
+#img_item{
+	margin:10px;
+	padding:5px;
+	float:left;
+	background: white;
+}
+
+#footer{
+	clear: both;
+	display: block;
+	height: 20px;
+	width: 800px;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	color :white;
+}
