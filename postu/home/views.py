@@ -1,9 +1,7 @@
 # Create your views here.
-from django.shortcuts import render_to_response
-from django.http import HttpResponse 
-from postu import settings
+from django.http import HttpRequest
+from wrapper import *
 
 def main(request):
-    
-    return render_to_response("home/home.html")
-#    return HttpResponse(settings.STATICFILES_ROOT)
+    #print request.REMOTE_ADDR
+    return render_response(request, "home/index.html")

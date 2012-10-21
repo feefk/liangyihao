@@ -71,7 +71,7 @@ STATICFILES_ROOT = os.path.join(PROJECT_ROOT, 'static').replace('\\','/')
 
 # Additional locations of static files
 STATICFILES_DIRS = (
-    STATICFILES_ROOT,
+    STATICFILES_ROOT,       #/postu/static
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -90,8 +90,8 @@ SECRET_KEY = '8wywbn(x-(+$%)35v*x82sf8i+-4bi-!7ibr%o3%tw3)6ngi4n'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
-    'django.template.loaders.filesystem.Loader',
-    'django.template.loaders.app_directories.Loader',
+    'django.template.loaders.filesystem.Loader',        #TEMPLATE_DIRS
+    'django.template.loaders.app_directories.Loader',   #INSTALLED_APPS
 #     'django.template.loaders.eggs.Loader',
 )
 
@@ -118,6 +118,15 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+)
+
+TEMPLATE_CONTEXT_PROCESSORS = (
+    'django.core.context_processors.static',
+    #'django.core.context_processors.auth',###no define in 1.4
+    'django.core.context_processors.debug',
+    'django.core.context_processors.i18n',
+    'django.core.context_processors.media',
+    'django.core.context_processors.request',
 )
 
 INSTALLED_APPS = (
