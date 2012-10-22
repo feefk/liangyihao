@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Post U</title>
+</head>
+
+<body id="body_feature">
+<div id="uploader">
+	<form id="upload" enctype="multipart/form-data" action="/practise/upload/" method="post">
+		{% csrf_token %}
+		<input id="file" name="file" type="file">
+		<input type="submit" value="Upload">
+	</form>
+</div>
+</body>
+</html>
