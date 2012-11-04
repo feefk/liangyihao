@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
-
+import settings
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 admin.autodiscover()
@@ -11,6 +11,7 @@ urlpatterns = patterns('',
     (r'^blog/$', include('blog.urls')),
     (r'^practise/', include('practise.urls')),
 
+    #url(r'^articles', include('articles.urls')),
     #(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATICFILES_ROOT}),
   
     #(r'^static/(?P<path>.*)$', 'django.views.static.serve'),

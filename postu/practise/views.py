@@ -6,6 +6,10 @@ from wrapper import *
 import Image
 import os.path
 
+
+def bootStrap(request):
+    return render_response(request, "practise/bootstrap.html")
+
 def _resized(image, new_w, new_h):
     img_w , img_h = image.size
    

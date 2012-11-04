@@ -7,4 +7,5 @@ from django.conf.urls import patterns
 urlpatterns = patterns('practise.views',
    (r'^upload_img/$', 'upload_img'),
    (r'^upload/$', 'upload'),
+   (r'^bootstrap/$', 'bootStrap'),
 )

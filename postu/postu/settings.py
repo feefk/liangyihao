@@ -135,6 +135,9 @@ INSTALLED_APPS = (
     'home',
     'blog',
     'author',
+    
+    #'articles',
+    #'south',
     #'pay',
 )
 
