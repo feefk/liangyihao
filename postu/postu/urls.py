@@ -6,12 +6,12 @@ import settings
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    (r'^$', include('home.urls')),
-    (r'^home/$', include('home.urls')),
+    (r'', include('home.urls')),
+    #(r'^home/$', include('home.urls')),
     (r'^blog/$', include('blog.urls')),
     (r'^practise/', include('practise.urls')),
 
-    url(r'^articles', include('articles.urls')),
+    #url(r'^articles', include('articles.urls')),
     #(r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root':settings.STATICFILES_ROOT}),
   
     #(r'^static/(?P<path>.*)$', 'django.views.static.serve'),

@@ -136,8 +136,8 @@ INSTALLED_APPS = (
     'blog',
     'author',
     
-    'articles',
-    'south',
+    #'articles',
+    #'south',
     #'pay',
 )
 

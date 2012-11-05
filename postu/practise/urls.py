@@ -8,4 +8,6 @@ urlpatterns = patterns('practise.views',
    (r'^upload_img/$', 'upload_img'),
    (r'^upload/$', 'upload'),
    (r'^bootstrap/$', 'bootStrap'),
+   (r'^grid/$', 'grid'),
+   
 )

@@ -7,6 +7,9 @@ import Image
 import os.path
 
 
+def grid(request):
+    return render_response(request, "practise/gridTest.html")
+
 def bootStrap(request):
     return render_response(request, "practise/bootstrap.html")
 
