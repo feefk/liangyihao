@@ -1,11 +1,21 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<!-- Main hero unit for a primary marketing message or call to action -->
 
-  <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-  <p>
-    <a class="btn btn-large btn-primary" href="../components.html#navbar">View navbar docs &raquo;</a>
-  </p>
-	
+
+<div class="container">
+    <div class="hero-unit">
+	    <h1>{{ page|capfirst }}</h1>
+	    <address>
+		  <strong>Twitter, Inc.</strong><br>
+		  795 Folsom Ave, Suite 600<br>
+		  San Francisco, CA 94107<br>
+		  <abbr title="Phone">P:</abbr> (123) 456-7890
+	   </address> 
+    </div>
+</div>
+
+
+ 
+
  {% endblock %}
